@@ -111,3 +111,18 @@ h1 {display: flex;
     justify-content:flex-start;
     font-size: 40px;
     }
+    
+    
+    .link{
+      color: rgb(68, 112, 68);
+      background-color: transparent;
+      text-decoration: underline;
+    }
+    
+    a:hover {
+      color: rgb(235, 69, 69);
+      background-color: transparent;
+      text-decoration: none;
+    }
+  
+   
