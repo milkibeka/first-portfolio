@@ -29,43 +29,44 @@ height: auto;
  max-width: 100%;
 }
 
-#work {
-  margin: 0px 5%;
-  display: grid;
-  grid-template-rows: 300px 300px 300px;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas:
-  "project1"
-  "project2 project3"
-  "project4 project5";
+.project-container {
+display:flexbox
+
+
 }
 
 #project1 {
   grid-area: project1;
   background-image: url("../images/02-portfolio-1.jpg");
+  background-position: center;
   height: 300px;
+  border:solid; color: red;
 }
 
 #project2 {
   grid-area: project2;
-  background: url("assets/images/02-portfolio-2.jpg");
+  background: url("../images/02-portfolio-2.jpg");
   background:cover;
-  height: 100px !important;
+  height: 100px;
+  border:solid; color: red;
 }
 #project3 {
   grid-area: project3;
-  background-image: url("assets/images/02-portfolio-3.jpg");
+  background-image: url("../images/02-portfolio-3.jpg");
   height: 100px;
+  border:solid; color: red;
 }
 #project4 {
   grid-area: project4;
-  background-image: url("assets/images/02-portfolio-4.jpg");
+  background-image: url("../images/02-portfolio-4.jpg");
   height: 100px;
+  border:solid; color: red;
 }
 #project5 {
   grid-area: project3;
-  background-image: url("assets/images/02-run-buddy.jpg");
+  background-image: url("../images/02-run-buddy.jpg");
   height: 100px;
+  border:solid; color: red;
 }
 
 
